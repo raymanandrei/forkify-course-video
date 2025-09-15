@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "core-js": "^3.45.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
+    "parcel": "^2.15.4",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4"
+  }
+}
